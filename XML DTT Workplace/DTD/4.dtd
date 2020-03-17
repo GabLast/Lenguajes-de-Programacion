@@ -1,0 +1,4 @@
+<!ELEMENT receta (ingredientes, procedimiento)>
+<!--definir los elementos y solo se definen ingredientes y procedimiento-->
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT procedimiento (#PCDATA)>

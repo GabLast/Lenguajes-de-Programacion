@@ -1,0 +1,9 @@
+﻿<!--se enlaza el xml con el dtd-->
+<!DOCTYPE receta  SYSTEM "3.dtd">
+<receta>
+  <parrafo>Esto es un párrafo</parrafo>
+  <titulo>...</titulo>
+  <ingredientes>...</ingredientes>
+  <procedimiento>...</procedimiento>
+</receta>
+

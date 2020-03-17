@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE ediciones_aranda [
+  <!ELEMENT ediciones_aranda (header, tabla)> 
+  <!ELEMENT header (titulo, contenido, descripcion, fecha)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT contenido (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT tabla (region+, trimestre, librosVendidos)>
+  <!ELEMENT region (norte | centro | sur)>
+  <!ELEMENT norte (#PCDATA | trim | libroVendido)*>
+  <!ELEMENT centro (#PCDATA | trim | libroVendido)*>
+  <!ELEMENT sur (#PCDATA | trim | libroVendido)*>
+  <!ELEMENT trim (#PCDATA)>
+  <!ELEMENT libroVendido (#PCDATA)>
+  <!ELEMENT trimestre (#PCDATA)>
+  <!ELEMENT librosVendidos (#PCDATA)>
+]>
+
+
+<!--<!DOCTYPE lista_de_notas SYSTEM "21.dtd">-->
+
+<ediciones_aranda>
+  <header>
+    <titulo>Ediciones Aranda</titulo>
+    <contenido>Informe regional del ventas</contenido>
+    <descripcion>informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+    <fecha>30/12/2009</fecha>
+  </header>
+  <tabla>
+    <region>
+      <norte>Norte
+        <trim>1</trim>
+          <libroVendido>24000</libroVendido>
+        <trim>2</trim>
+          <libroVendido>38600</libroVendido>
+        <trim>3</trim>
+          <libroVendido></libroVendido>
+        <trim>4</trim>
+          <libroVendido></libroVendido>
+      </norte>
+    </region>
+    <region>
+      <centro>Centro
+        <trim>1</trim>
+          <libroVendido></libroVendido>
+        <trim>2</trim>
+          <libroVendido>16080</libroVendido>
+        <trim>3</trim>
+          <libroVendido>25000</libroVendido>
+        <trim>4</trim>
+          <libroVendido>29000</libroVendido>
+      </centro>
+    </region>
+    <region>
+      <sur>Sur
+        <trim>1</trim>
+          <libroVendido>27000</libroVendido>
+        <trim>2</trim>
+          <libroVendido>31400</libroVendido>
+        <trim>3</trim>
+          <libroVendido>40100</libroVendido>
+        <trim>4</trim>
+          <libroVendido>30000</libroVendido>
+      </sur>
+    </region>
+    <trimestre>Trimestre</trimestre>
+    <librosVendidos>Libros Vendidos</librosVendidos>
+  </tabla>
+</ediciones_aranda>

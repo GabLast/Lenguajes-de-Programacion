@@ -1,0 +1,17 @@
+<!--6-->
+
+<!--
+
+Documento 1
+-Hay cosas mal cerradas (con ])
+-Hay valores de atributos que no estan entre comillas
+-Etiquetas fuera de orden o sin cerrar
+-->
+
+<!--Solucion-->
+<documento> 
+    <p>Mi Primer<destacar importancia="1">documento XML</destacar></p> 
+    <p>Comienza con la etiqueta </p> 
+    <p>A continuacion colocamos un elemento sin contenido</p> 
+    <imagen fichero="imagen.gif"> </imagen>
+</documento>

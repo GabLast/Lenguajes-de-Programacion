@@ -1,0 +1,194 @@
+body {
+    background: url("../images/background.jpg") no-repeat fixed center center;
+
+    background-size: cover;
+    /*background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    */
+
+    /*
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: center;
+    */
+}
+
+#logo {
+    height: 80px;
+    min-width: 240px;
+    margin: 40px 0px 10px 0px;
+}
+
+.texts {
+    line-height: 18px;
+    font-size: 14px;
+    color: white;
+    margin:42px;
+    font-family: Georgia, serif;
+}
+
+.buttons {
+    color: rgb(113, 139, 255); 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 11px; border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%); 
+    box-shadow:none; border: none; 
+    display: inline-block;
+}
+
+.boxButton {
+    color: rgb(255, 255, 255); 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 11px; 
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    text-transform: none; 
+    background: linear-gradient(90deg, rgba(37,129,194,1) 0%, rgba(127,201,212,1) 100%);
+    box-shadow:none; border: none; 
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+.col-md-2 {
+    text-align: center;
+    display: inline-block;
+}
+
+.row {
+
+    margin: 5px;
+}
+
+.block-container {
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: none;
+    background-color: white;
+    margin: 0;
+    margin-top: 80px;
+    margin-left: -30px;
+    min-width: 290px;
+    height: 345px;
+}
+
+
+.boxTexts {
+    line-height: 18px;
+    font-size: 15px;
+    color:black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: Georgia, serif;
+}
+
+.urlTexts {
+    line-height: 18px;
+    font-size: 14px;
+    display: block;
+    text-decoration: underline;
+}
+
+.bottomTexts {
+    line-height: 18px;
+    font-size: 14px;
+    display: block;
+    text-decoration-color: royalblue;
+}
+
+.boxInputs {
+    color:rgb(87.0000024139881,87.0000024139881,86.0000024735928);
+    background:rgba(236,236,236,0.8);
+    background-color: 
+        rgba(236, 236, 236, 0.8);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: none;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+    border-radius: 7px 7px 7px 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 240px;
+    height: 34px;
+    text-indent: 4%;
+    font-family: Georgia, serif;
+}
+
+.labelTexts {
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+
+#piePag {
+    position: fixed;
+    min-height: auto;
+    width: 100%;
+    background:white;
+    position: auto;
+    clear: both;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    /*tratar con un margen negativo*/
+}
+
+#facebookBTN {
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    line-height: 14px; 
+    padding: 11px; 
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    text-transform: none; 
+    background: rgba(37,129,194,1);
+    box-shadow:none; 
+    border: none; 
+    display: inline-block;
+    height: 28px;
+    width: 115px;
+    margin-left: -24px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+#twitterBTN {
+    color: rgb(255, 255, 255); 
+    font-size: 15px; 
+    line-height: 14px; 
+    padding: 11px; 
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    text-transform: none; 
+    background: rgb(34, 159, 248);
+    box-shadow:none; 
+    border: none; 
+    display: inline-block;
+    height: 28px;
+    width: 115px;
+    margin-top: 4px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+h1 {
+
+    text-align: center;
+
+}
+
+body {
+    background: url("../images/background.jpg") no-repeat fixed center center;
+
+    background-size: cover;
+    /*background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    */
+
+    /*
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: center;
+    */
+}

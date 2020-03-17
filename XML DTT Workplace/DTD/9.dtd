@@ -1,0 +1,4 @@
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!--se define parrafo y grafico porque hay una ocurrencia de estos-->
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>

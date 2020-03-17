@@ -1,0 +1,53 @@
+<!--5-->
+<arboles>
+    <tipo>
+        <nombreCienti>Acer monspessulanum </nombreCienti>
+        <nombreCom>Arce de Montpellier, Arce menor</nombreCom>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <formaEstructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
+        <colorPrim>Haz verde brillante, envés verde blanquecino</colorPrim>
+        <colorOtonio></colorOtonio>
+        <resistFrio>Heladas fuertes (hasta -15ºC)</resistFrio>
+    </tipo>
+    <tipo>
+        <nombreCienti>Olea europea</nombreCienti>
+        <nombreCom>Olivo</nombreCom>
+        <vegetacion>Perenne</vegetacion>
+        <altura>De 8 a 15 metros</altura>
+        <formaEstructura>Copa irregular. Tronco principal irregular con bifurcaciones.</formaEstructura>
+        <colorPrim></colorPrim>
+        <colorOtonio></colorOtonio>
+        <resistFrio></resistFrio>
+    </tipo>
+    <tipo>
+        <nombreCienti>Ramaje tortuoso </nombreCienti>
+        <nombreCom></nombreCom>
+        <vegetacion></vegetacion>
+        <altura></altura>
+        <formaEstructura></formaEstructura>
+        <colorPrim>Haz verde oscuro, envés verde plateado</colorPrim>
+        <colorOtonio></colorOtonio>
+        <resistFrio>Heladas medias (hasta -10ºC)</resistFrio>
+    </tipo>
+    <tipo>
+        <nombreCienti>Platanus orientalis</nombreCienti>
+        <nombreCom>Platano</nombreCom>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 20 a 25 metros</altura>
+        <formaEstructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</formaEstructura>
+        <colorPrim>Haz verde medio, enves verde claro</colorPrim>
+        <colorOtonio>Ocre</colorOtonio>
+        <resistFrio>Heladas fuertes (hasta -20ºC)</resistFrio>
+    </tipo>
+    <tipo>
+        <nombreCienti>Quercus ilex </nombreCienti>
+        <nombreCom>Encina</nombreCom>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>En torno a 25 metros</altura>
+        <formaEstructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</formaEstructura>
+        <colorPrim>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</colorPrim>
+        <colorOtonio></colorOtonio>
+        <resistFrio>Heladas fuertes (hasta -15ºC)</resistFrio>
+    </tipo>
+</arboles>

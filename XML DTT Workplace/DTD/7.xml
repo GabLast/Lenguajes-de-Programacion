@@ -1,0 +1,10 @@
+﻿<!--se enlaza el xml con el dtd-->
+<!DOCTYPE aviso  SYSTEM "7.dtd">
+<aviso>
+  <titulo>...</titulo>
+  <parrafo>...</parrafo>
+  <grafico>...</grafico>
+  <parrafo>...</parrafo>
+</aviso>
+
+

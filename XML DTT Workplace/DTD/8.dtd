@@ -1,0 +1,3 @@
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!--se define titulo porque hay una ocurrencia de este-->
+<!ELEMENT titulo (#PCDATA)>

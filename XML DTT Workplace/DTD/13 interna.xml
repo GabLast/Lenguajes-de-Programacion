@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE lista_personas [
+  <!ELEMENT lista_personas (persona)>
+  <!ELEMENT persona (nombre, fecha_nacimiento,sexo)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT fecha_nacimiento (#PCDATA)>
+  <!ELEMENT sexo (#PCDATA)>
+]>
+<!-- <!DOCTYPE lista_personas SYSTEM "13.dtd"> -->
+<lista_personas>
+  <persona>
+    <nombre>Antonio Moreno</nombre>
+    <fecha_nacimiento>27-11-2008</fecha_nacimiento>
+    <sexo>Varón</sexo>
+  </persona>
+</lista_personas>
+

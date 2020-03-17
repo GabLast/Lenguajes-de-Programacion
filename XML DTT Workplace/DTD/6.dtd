@@ -1,0 +1,4 @@
+<!ELEMENT aviso (titulo?, (parrafo+, grafico)*)>
+<!--no se define parrafo ni grafico porque
+el minimo de ocurrencias es 0 debido al (...)*
+y el titulo es de 0 o 1 ocurrencias por el ?-->

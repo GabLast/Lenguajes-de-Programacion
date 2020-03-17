@@ -1,0 +1,8 @@
+﻿<!--se enlaza el xml con el dtd-->
+<!DOCTYPE receta  SYSTEM "4.dtd">
+<receta>
+  <ingredientes>...</ingredientes>
+  <procedimiento>...</procedimiento>
+</receta>
+
+
